@@ -4,8 +4,8 @@
   e imprima por pantalla la frase Tu índice de masa corporal es donde es el índice de masa
    corporal calculado redondeado con dos decimales. """
 
-peso = int(input("Ingresa tu peso en KG: "))
-estatura = float(input("Ingresa tu estatura en MT: "))
-masaCorporal = round(peso/estatura,2)
+peso = input("Ingresa tu peso en KG: ")
+estatura = input("Ingresa tu estatura en MT: ")
+masaCorporal = round(float(peso)/float(estatura)**2,2)
 
 print (f"Tu indice de masa corporal es {masaCorporal} ")
